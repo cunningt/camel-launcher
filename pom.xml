@@ -40,6 +40,11 @@
         <supportLevel>Preview</supportLevel>
         <camel-prepare-component>false</camel-prepare-component>
 
+        <!-- Java compiler configuration -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
+
         <!-- Launcher configuration properties -->
         <quarkus.version>3.33.1</quarkus.version>
         <camel.quarkus.version>3.33.0</camel.quarkus.version>
